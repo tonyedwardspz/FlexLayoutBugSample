@@ -12,7 +12,7 @@ public partial class MainPage : ContentPage
         {
             Direction = FlexDirection.Row,
             Wrap = FlexWrap.Wrap,
-            // AlignContent = FlexAlignContent.Center,
+            AlignContent = FlexAlignContent.Center,
             Children =
             {
                 new Label
